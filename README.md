@@ -44,6 +44,28 @@ Users should be able to:
 
 ### What I learned
 
+How to [customize the hr](https://www.w3schools.com/howto/howto_css_style_hr.asp)
+```
+hr {
+        border-top: 3px solid $red;
+}
+```
+
+Select an element by class
+```
+// Select the second .card element
+.card:nth-of-type(2) {
+  background-color: red;
+}
+```
+
+Select all child but not the first
+```
+:not(:first-child) {
+  background-color: red;
+}
+```
+
 
 
 ### Continued development
@@ -52,11 +74,14 @@ Users should be able to:
   - Partials
   - Mixins
   - Extends
+- Improve the use of css selectors like nth-child
 
 
 ### Useful resources
 
 - [Learn sass](https://sass-lang.com/guide)
+- [box-shadow generator](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator)
+- [nth child grafikart](https://www.youtube.com/watch?v=DymZtovzd4o)
 
 ## Author
 
