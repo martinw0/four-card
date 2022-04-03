@@ -14,7 +14,7 @@ body {
 }
 
 main {
-  margin: 0 25px;
+  margin: 100px 35px;
 }
 main h1, main h2, main h3, main p {
   font-family: Poppins;
@@ -35,13 +35,13 @@ main h3 {
 }
 main p {
   font-weight: 400;
-  font-size: 10px;
+  font-size: 15px;
   color: hsl(229deg, 6%, 66%);
 }
 main .card {
   display: flex;
   flex-direction: column;
-  margin: 20px 0;
+  margin: 25px 0;
   background-color: hsl(0deg, 0%, 98%);
   border-radius: 5px;
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.31);
@@ -49,10 +49,17 @@ main .card {
 main .card h3, main .card p {
   text-align: left;
 }
+main .card h3 {
+  margin-bottom: 0;
+}
+main .card p {
+  font-size: 13px;
+}
 main .card img {
   height: 64px;
   width: 64px;
   align-self: flex-end;
+  margin: 20px 0;
 }
 main .card hr {
   width: 100%;
@@ -72,6 +79,9 @@ main .card:nth-of-type(3) hr {
 }
 main .card:nth-of-type(4) hr {
   border-top: 3px solid hsl(212deg, 86%, 64%);
+}
+main .card:first-of-type {
+  margin-top: 90px;
 }
 
 /*# sourceMappingURL=style.css.map */
