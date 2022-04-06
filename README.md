@@ -66,6 +66,11 @@ Select all child but not the first
 }
 ```
 
+flex gap
+
+flex disposition mock in test.html
+
+
 
 
 ### Continued development
@@ -82,6 +87,7 @@ Select all child but not the first
 - [Learn sass](https://sass-lang.com/guide)
 - [box-shadow generator](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator)
 - [nth child grafikart](https://www.youtube.com/watch?v=DymZtovzd4o)
+- [CSS guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## Author
 
