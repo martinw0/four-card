@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <style>
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      .class {
+          width: 150px;
+          height: 100px;
+          background-color: red;
+      }
+      .middle .class:nth-of-type(1) {
+          background-color: green;
+      }
+      .middle .class:nth-of-type(2) {
+          background-color: black;
+      }
+  </style>
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+</head>
+<body>
+    <div class="class"></div>
+    <div class="middle">
+        <div class="class"></div>
+        <div class="class"></div>
+    </div>
+    <div class="class"></div>
+</body>
+</html>
