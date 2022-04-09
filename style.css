@@ -5,7 +5,11 @@
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: hsl(228deg, 45%, 44%);
+}
+
+html, body {
+  height: 100%;
 }
 
 body {
@@ -14,29 +18,54 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
   margin: 100px 35px;
+}
+@media screen and (min-width: 100px) {
+  main {
+    margin: 0;
+  }
 }
 main h1, main h2, main h3, main p {
   font-family: Poppins;
   text-align: center;
-  color: #4c4e61;
+  color: hsl(234deg, 12%, 34%);
 }
 main h1 {
   font-weight: 200;
   font-size: 25px;
   margin: 3px 0;
 }
+@media screen and (min-width: 1000px) {
+  main h1 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+}
 main h2 {
   font-weight: 600;
   margin: 2px 0;
+}
+@media screen and (min-width: 1000px) {
+  main h2 {
+    font-size: 30px;
+  }
 }
 main h3 {
   font-weight: 600;
 }
 main p {
   font-weight: 400;
-  font-size: 15px;
-  color: #a3a5ae;
+  font-size: 14px;
+  color: hsl(229deg, 6%, 66%);
+}
+@media screen and (min-width: 1000px) {
+  main .description {
+    width: 510px;
+  }
 }
 main .card {
   display: flex;
@@ -44,7 +73,7 @@ main .card {
   margin: 25px 0;
   height: 222px;
   width: 305px;
-  background-color: #fafafa;
+  background-color: hsl(0deg, 0%, 98%);
   border-radius: 5px;
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.31);
 }
@@ -79,22 +108,23 @@ main .card:first-of-type {
   }
 }
 main .card:nth-of-type(1) hr {
-  border-top: 3px solid #45d3d3;
+  border-top: 3px solid hsl(180deg, 62%, 55%);
 }
 main .card:nth-of-type(3) hr {
-  border-top: 3px solid #549ef2;
+  border-top: 3px solid hsl(212deg, 86%, 64%);
 }
 main .middle .card:first-of-type {
   margin-top: 0px;
 }
 main .middle .card:nth-of-type(1) hr {
-  border-top: 3px solid #ea5353;
+  border-top: 3px solid hsl(0deg, 78%, 62%);
 }
 main .middle .card:nth-of-type(2) hr {
-  border-top: 3px solid #fcaf4a;
+  border-top: 3px solid hsl(34deg, 97%, 64%);
 }
 @media screen and (min-width: 1000px) {
   main .container {
+    flex: 1 1 auto;
     display: flex;
     gap: 30px;
     align-items: center;

@@ -70,6 +70,8 @@ flex gap
 
 flex disposition mock in test.html
 
+How to make a div take the remaining height with flexbox.
+
 
 
 
@@ -80,6 +82,7 @@ flex disposition mock in test.html
   - Mixins
   - Extends
 - Improve the use of css selectors like nth-child
+- Mobile first workflow
 
 
 ### Useful resources
