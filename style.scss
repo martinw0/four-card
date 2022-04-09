@@ -96,7 +96,7 @@ main {
     }
     .card:first-of-type {
         margin-top: 90px;
-        @media screen and (min-width: 100px) {
+        @media screen and (min-width: 1000px) {
             margin-top: 0px;
         }
     }
